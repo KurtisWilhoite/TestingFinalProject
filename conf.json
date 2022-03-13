@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.power.fi/",
+  "textlink": "//div[2]/div[1]/button[3]",
+  "getVarif": "//div[2]/div[1]/button[3]",
+  "allowCookies": "//div[2]/div[1]/button[3]",
+  "searchBar": "//div/pwr-search-input/form/input",
+  "homeButton": "//a/img",
+  "selectProduct": "//div[2]/div/div/div[2]/div/div/pwr-product-item-wrapper[2]/pwr-product-item-v2/a",
+  "selectColorChange": "/html/body/pwr-main/div[1]/pwr-product-page/div[1]/section[1]/div[2]/div/div/div[3]/div/pwr-product-variants/div/div/div/div/button",
+  "addToCart": "//div[2]/div/div/div[3]/div/div[2]/div[2]/div[2]/button",
+  "addToInsurance": "//pwr-add-to-cart-dialog/div/div/div[2]/div/div[1]/pwr-product-line/div/div[2]/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button",
+  "addToCartFinal": "//pwr-add-to-cart-dialog/div/div/div[2]/div/div[2]/div/a",
+  "removeInsurance": "//div[2]/div[1]/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-icon-button/button/pwr-lib-icon/i",
+  "removeItem": "//div[2]/div[1]/pwr-checkout-product-line/div/div[1]/div[2]/div/button[1]"
+}

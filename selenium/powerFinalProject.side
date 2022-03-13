@@ -1,0 +1,388 @@
+{
+  "id": "e10c6d7c-c839-47a4-8095-f308a4a7ff86",
+  "version": "2.0",
+  "name": "powerFinalProject",
+  "url": "https://www.power.fi",
+  "tests": [{
+    "id": "62657ffd-6cba-4ce9-873b-e1e24f05db5a",
+    "name": "Test",
+    "commands": [{
+      "id": "94461ea8-4051-4a36-9349-9ee2fbbfb544",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d9bd043-7b19-4c97-b897-375b7630c923",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ad1d758-c19a-48ce-9ad4-a3279967ec24",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#coiPage-1 > .coi-banner__page-footer",
+      "targets": [
+        ["css=#coiPage-1 > .coi-banner__page-footer", "css:finder"],
+        ["xpath=//div[@id='coiPage-1']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "4c5ee8ab-a578-48d2-a276-ae35a5e1835d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coi-banner__accept:nth-child(3)",
+      "targets": [
+        ["css=.coi-banner__accept:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='CookieInformation.submitAllCategories();']", "xpath:attributes"],
+        ["xpath=//div[@id='coiPage-1']/div[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Hyväksy kaikki')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf459f5b-6bfb-432c-8985-e6826c643967",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c00773-2820-4d75-84a0-ef91931e7c39",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 13 pro"
+    }, {
+      "id": "fb8adb82-3a06-4c26-9de2-d75534b1a3f3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f2817325-b99e-45e0-8b02-707789546799",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cc8a6164-001c-4a29-9dc7-e0ea9cd95b2c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.ng-star-inserted:nth-child(4) .bold",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(4) .bold", "css:finder"],
+        ["xpath=//section[@id='products']/div[2]/div/div/div[2]/div/div/pwr-product-item-wrapper[4]/pwr-product-item-v2/a/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//pwr-product-item-wrapper[4]/pwr-product-item-v2/a/div[2]/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'APPLE IPHONE 13 PRO 128 GT KULTA')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "2bcc0304-fe3f-482a-b5bb-15acb65839b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4659f789-e476-4e66-8ef1-a0a4a20dd71c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed201be0-acbf-4354-aa9f-f44bd949c179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "948e1e95-2284-440e-b9a9-7abac4a4471f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b48680d-f691-4856-a4f8-8947b85f866a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 12 pro"
+    }, {
+      "id": "2b8cdcf1-1ba5-483f-988f-7e4351809e2b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1511ee7b-b794-408b-b63d-8a919ddef351",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(4) > .ng-star-inserted .ls-is-cached",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(4) > .ng-star-inserted .ls-is-cached", "css:finder"],
+        ["xpath=(//img[@alt='APPLE IPHONE 12 64 GT (PRODUCT)RED™'])[2]", "xpath:img"],
+        ["xpath=//section[@id='products']/div[2]/div/div/div[2]/div/div/pwr-product-item-wrapper[4]/pwr-product-item-v2/a/div/pwr-product-image/div/picture/img", "xpath:idRelative"],
+        ["xpath=//pwr-product-item-wrapper[4]/pwr-product-item-v2/a/div/pwr-product-image/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a89391e-be8d-4d72-a401-a35a6770b12c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.swiper-slide:nth-child(2) .ls-is-cached",
+      "targets": [
+        ["css=.swiper-slide:nth-child(2) .ls-is-cached", "css:finder"],
+        ["xpath=(//img[@alt='APPLE IPHONE 12 64 GT (PRODUCT)RED™'])[3]", "xpath:img"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='product-images-52470236']/div/swiper/div[2]/div[2]/pwr-image-item/div/pwr-product-image/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/pwr-image-item/div/pwr-product-image/div/picture/img", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "5acdeedf-5f75-4f65-aefe-9efc7bef0869",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dd-selection-item:nth-child(2)",
+      "targets": [
+        ["css=.dd-selection-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//pwr-product-variants/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Punainen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46665bc5-9745-4ff1-9492-0efcf743a01c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(5) .dd-selection-item",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(5) .dd-selection-item", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div/div/div/ul/li[5]/div/label", "xpath:idRelative"],
+        ["xpath=//li[5]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Musta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3ea4da-56b6-4c5b-8133-233b8d247e7e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.swiper-slide:nth-child(2) .lazyloaded",
+      "targets": [
+        ["css=.swiper-slide:nth-child(2) .lazyloaded", "css:finder"],
+        ["xpath=(//img[@alt='APPLE IPHONE 12 64 GT MUSTA'])[2]", "xpath:img"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='product-images-01701959']/div/swiper/div[2]/div[2]/pwr-image-item/div/pwr-product-image/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/pwr-image-item/div/pwr-product-image/div/picture/img", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "79feb6ca-c03e-4e7a-ad1d-c7425b6fc1fe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4da10281-d0ea-4559-a4dc-0d713d642da8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .ng-star-inserted",
+      "targets": [
+        ["css=.btn > .ng-star-inserted", "css:finder"],
+        ["xpath=//section[@id='product-intro']/div[2]/div/div/div[3]/div/div[2]/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lisää ostoskoriin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa295b49-f2d8-4ea6-a728-e08e7bbaffa2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=Siirry ostoskoriin",
+      "targets": [
+        ["linkText=Siirry ostoskoriin", "linkText"],
+        ["css=.summary-actions > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Siirry ostoskoriin')]", "xpath:link"],
+        ["xpath=//div[@id='cdk-overlay-0']/pwr-add-to-cart-dialog/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/')])[3]", "xpath:href"],
+        ["xpath=//pwr-add-to-cart-dialog/div/div/div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Siirry ostoskoriin')]", "xpath:innerText"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "d436c3a0-6579-4d6c-ad7f-c948984cb546",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3acf3cf0-ce13-4552-a676-71007b073666",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted > .pwr-btn > .ng-star-inserted",
+      "targets": [
+        ["css=.ng-star-inserted > .pwr-btn > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='cdk-overlay-0']/pwr-add-to-cart-dialog/div/div/div[2]/div/div/pwr-product-line/div/div[2]/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/pwr-lib-button/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7f57d92-6920-417f-82b6-06bf86619b49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-disabled",
+      "targets": [
+        ["css=.btn-disabled", "css:finder"],
+        ["xpath=(//button[@type='button'])[52]", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/pwr-add-to-cart-dialog/div/div/div[2]/div/div/pwr-product-line/div/div[2]/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/pwr-lib-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89254e07-4a3b-4e82-8290-20949c4df94a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Siirry ostoskoriin",
+      "targets": [
+        ["linkText=Siirry ostoskoriin", "linkText"],
+        ["css=.summary-actions > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Siirry ostoskoriin')]", "xpath:link"],
+        ["xpath=//div[@id='cdk-overlay-0']/pwr-add-to-cart-dialog/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/')])[3]", "xpath:href"],
+        ["xpath=//pwr-add-to-cart-dialog/div/div/div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Siirry ostoskoriin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e24bb33-3f3c-43d5-aa71-ddbd3153b9ee",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.ls-is-cached",
+      "targets": [
+        ["css=.ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='APPLE IPHONE 12 64 GT MUSTA']", "xpath:img"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/div/div/figure/pwr-product-image/div/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "ee6c6f43-7906-4899-b61b-bb5bfbd34abf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwr-icon-trash",
+      "targets": [
+        ["css=.pwr-icon-trash", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-icon-button/button/pwr-lib-icon/i", "xpath:idRelative"],
+        ["xpath=//button/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db5801d-f140-4630-9a8c-622787c2fadb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-quantity-button-minus",
+      "targets": [
+        ["css=.line-quantity-button-minus", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//pwr-checkout-product-line/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac10cd60-348e-49b7-be4e-2a17a66ed698",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.cart-image",
+      "targets": [
+        ["css=.cart-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://media.power-cdn.net/images/empty-shopping-cart.svg')]", "xpath:img"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "f8e5cf70-2e01-4feb-a5d3-d9f76008ae44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Siirry takaisin kauppaan",
+      "targets": [
+        ["linkText=Siirry takaisin kauppaan", "linkText"],
+        ["css=.pwr-btn", "css:finder"],
+        ["xpath=(//a[contains(@href, '/')])[57]", "xpath:href"],
+        ["xpath=//pwr-lib-button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Siirry takaisin kauppaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2b7b296f-f69c-4366-805e-add213e4f2ef",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.power.fi/"],
+  "plugins": []
+}
