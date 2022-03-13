@@ -3,6 +3,7 @@ const OriginSelect = async (variable) => {
   const { getVarif, allowCookies } = variable;
   const getVerificationTitle = await $(getVarif).getText();
   browser.pause(2000);
+  
   if (getVerificationTitle === getVarif) {
     await $(allowCookies).click();
     return true;

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[2]/div[1]/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-icon-button/button/pwr-lib-icon/i"
+}
