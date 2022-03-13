@@ -1,4 +1,4 @@
-const OriginSelect = async (variable) => {
+const AcceptCookies = async (variable) => {
   browser.maximizeWindow();
   const { getVarif, allowCookies } = variable;
   const getVerificationTitle = await $(getVarif).getText();
@@ -12,4 +12,4 @@ const OriginSelect = async (variable) => {
   }
   browser.pause(2000);
 };
-module.exports = { OriginSelect };
+module.exports = { AcceptCookies };

@@ -1,4 +1,4 @@
-const { LoginBaseUrl, OriginSelect, ProductSearch, 
+const { LoginBaseUrl, AcceptCookies, ProductSearch, 
   ReturnHome, ProductDetails, ChangeProductColor, 
   AddCart, RemoveCart, variable } = require(".");
 
@@ -7,7 +7,7 @@ describe("Automation testing with webdriverIO", () => {
     await LoginBaseUrl(variable);
   });
   it("User can accept cookies if necessary", async () => {
-    await OriginSelect(variable);
+    await AcceptCookies(variable);
   });
   it("User can search for iPhone 13 Pro", async () => {
     await ProductSearch(variable, "iPhone 13 Pro");

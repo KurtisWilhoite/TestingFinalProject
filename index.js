@@ -1,6 +1,6 @@
 const variable = require("./conf.json");
 const { LoginBaseUrl } = require("./test/services/loginBaseUrl");
-const { OriginSelect } = require("./test/services/originSelect");
+const { AcceptCookies } = require("./test/services/acceptCookies");
 const { ProductSearch } = require("./test/services/productSearch");
 const { ReturnHome } = require("./test/services/returnHome");
 const { ProductDetails } = require("./test/services/productDetails");
@@ -10,7 +10,7 @@ const { RemoveCart } = require("./test/services/removeCart");
 
 module.exports = { 
     LoginBaseUrl, 
-    OriginSelect, 
+    AcceptCookies, 
     ProductSearch, 
     ReturnHome, 
     ProductDetails,
