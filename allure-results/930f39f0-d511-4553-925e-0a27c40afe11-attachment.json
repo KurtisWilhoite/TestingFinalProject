@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[2]/div[1]/pwr-checkout-product-line/div/div[1]/div[2]/div/button[1]"
-}
